@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2c13772b-f1c5-4db4-84ae-b383c5e990c6</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>mfcc.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>stft.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>mfcc</Name>
+    <Name>stft</Name>
     <RootNamespace>mfcc</RootNamespace>
     <InterpreterId>Global|VisualStudio|mfcc</InterpreterId>
   </PropertyGroup>
@@ -22,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="mfcc.py" />
+    <Compile Include="stft.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|mfcc" />
