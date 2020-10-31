@@ -19,5 +19,5 @@ D = librosa.amplitude_to_db(librosa.stft(y), ref=np.max)
 librosa.display.specshow(D, y_axis='linear')
 #分贝颜色
 plt.colorbar(format='%+2.0f dB')
-plt.title('Linear-frequency power spectrogram')#线性频率功率谱图
+#plt.title('Linear-frequency power spectrogram')#线性频率功率谱图
 plt.show()

@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "mfcc", "mfcc\mfcc.pyproj", 
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "spectrogram", "spectrogram\spectrogram.pyproj", "{062A2128-01EC-4878-96E3-7BA76BACE0E5}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "wave", "wave\wave.pyproj", "{76911500-8362-460F-A670-A7B05B64E372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{044BD6F9-51BE-436F-9796-D0BC221B738A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{062A2128-01EC-4878-96E3-7BA76BACE0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{062A2128-01EC-4878-96E3-7BA76BACE0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76911500-8362-460F-A670-A7B05B64E372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76911500-8362-460F-A670-A7B05B64E372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

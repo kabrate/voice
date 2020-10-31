@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>062a2128-01ec-4878-96e3-7ba76bace0e5</ProjectGuid>
+    <ProjectGuid>76911500-8362-460f-a670-a7b05b64e372</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>melspectrogram.py</StartupFile>
+    <StartupFile>wave.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>spectrogram</Name>
-    <RootNamespace>spectrogram</RootNamespace>
+    <Name>wave</Name>
+    <RootNamespace>wave</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="melspectrogram.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="spectrogram.py" />
+    <Compile Include="wave.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
