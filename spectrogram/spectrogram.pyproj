@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>062a2128-01ec-4878-96e3-7ba76bace0e5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>melspectrogram.py</StartupFile>
+    <StartupFile>spectrogram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
