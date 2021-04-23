@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>062a2128-01ec-4878-96e3-7ba76bace0e5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>spectrogram.py</StartupFile>
+    <StartupFile>mulityply_spectrogram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>spectrogram</Name>
     <RootNamespace>spectrogram</RootNamespace>
+    <InterpreterId>Global|VisualStudio|mfcc</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,7 +28,13 @@
     <Compile Include="load.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="spectrogram.py" />
+    <Compile Include="single_spectrogram.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mulityply_spectrogram.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|mfcc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

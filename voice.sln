@@ -11,20 +11,48 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "spectrogram", "spectrogram\
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "wave", "wave\wave.pyproj", "{76911500-8362-460F-A670-A7B05B64E372}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "rp", "rp\rp.pyproj", "{F721A9F9-ABD1-4017-8546-BEBD1E837D05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2C13772B-F1C5-4DB4-84AE-B383C5E990C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C13772B-F1C5-4DB4-84AE-B383C5E990C6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2C13772B-F1C5-4DB4-84AE-B383C5E990C6}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{2C13772B-F1C5-4DB4-84AE-B383C5E990C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C13772B-F1C5-4DB4-84AE-B383C5E990C6}.Release|x64.ActiveCfg = Release|Any CPU
+		{2C13772B-F1C5-4DB4-84AE-B383C5E990C6}.Release|x86.ActiveCfg = Release|Any CPU
 		{044BD6F9-51BE-436F-9796-D0BC221B738A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044BD6F9-51BE-436F-9796-D0BC221B738A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{044BD6F9-51BE-436F-9796-D0BC221B738A}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{044BD6F9-51BE-436F-9796-D0BC221B738A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044BD6F9-51BE-436F-9796-D0BC221B738A}.Release|x64.ActiveCfg = Release|Any CPU
+		{044BD6F9-51BE-436F-9796-D0BC221B738A}.Release|x86.ActiveCfg = Release|Any CPU
 		{062A2128-01EC-4878-96E3-7BA76BACE0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062A2128-01EC-4878-96E3-7BA76BACE0E5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{062A2128-01EC-4878-96E3-7BA76BACE0E5}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{062A2128-01EC-4878-96E3-7BA76BACE0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062A2128-01EC-4878-96E3-7BA76BACE0E5}.Release|x64.ActiveCfg = Release|Any CPU
+		{062A2128-01EC-4878-96E3-7BA76BACE0E5}.Release|x86.ActiveCfg = Release|Any CPU
 		{76911500-8362-460F-A670-A7B05B64E372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76911500-8362-460F-A670-A7B05B64E372}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{76911500-8362-460F-A670-A7B05B64E372}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{76911500-8362-460F-A670-A7B05B64E372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76911500-8362-460F-A670-A7B05B64E372}.Release|x64.ActiveCfg = Release|Any CPU
+		{76911500-8362-460F-A670-A7B05B64E372}.Release|x86.ActiveCfg = Release|Any CPU
+		{F721A9F9-ABD1-4017-8546-BEBD1E837D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F721A9F9-ABD1-4017-8546-BEBD1E837D05}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F721A9F9-ABD1-4017-8546-BEBD1E837D05}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F721A9F9-ABD1-4017-8546-BEBD1E837D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F721A9F9-ABD1-4017-8546-BEBD1E837D05}.Release|x64.ActiveCfg = Release|Any CPU
+		{F721A9F9-ABD1-4017-8546-BEBD1E837D05}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
