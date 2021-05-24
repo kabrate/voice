@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>044bd6f9-51be-436f-9796-d0bc221b738a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>download.py</StartupFile>
+    <StartupFile>lfcc.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="download.py" />
+    <Compile Include="lfcc.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mfcc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mfcc2.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

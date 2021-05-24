@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>062a2128-01ec-4878-96e3-7ba76bace0e5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mulityply_spectrogram.py</StartupFile>
+    <StartupFile>single_spectrogram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -12,6 +12,9 @@
     <Name>spectrogram</Name>
     <RootNamespace>spectrogram</RootNamespace>
     <InterpreterId>Global|VisualStudio|mfcc</InterpreterId>
+    <TestFramework>pytest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
